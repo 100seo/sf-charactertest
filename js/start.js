@@ -4,10 +4,6 @@ const result = document.querySelector("#result")
 const endPoint = 7
 const select = []
 
-$(window).load(function(){
-    $(".loading").fadeOut();
-});
-
 function calResult() {
     var pointArray = [{
             name: 'haru',
