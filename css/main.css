@@ -1,0 +1,81 @@
+/*폰트어썸 5.10.2 CDN*/
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css');
+
+/*SUIT 웹폰트 CDN*/
+@import url('http://cdn.jsdelivr.net/gh/sunn-us/SUIT/fonts/static/woff2/SUIT.css');
+
+/*  */
+*{
+    font-family:"SUIT", sans-serif;
+} 
+
+@font-face {
+    font-family:  "YUniverse-B";
+    src: url("../font/YUniverse-B.ttf");
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(to bottom, #3676B6, #F5B7BA);
+    color: #444;
+}
+
+h5{
+    font-family:  "YUniverse-B";
+    font-size: 19px;
+    transform : rotate(0.04deg); 
+}
+h4{
+    color: #7198b1;
+    font-family:  "YUniverse-B";
+    font-size: 30px;
+    margin-bottom: 15px;
+    transform : rotate(0.04deg); 
+}
+#main{
+    background-color: #ffffff95;
+    box-shadow: 5px 5px 10px #3676B670;
+    width: 80%;
+    text-align: center;
+    border-radius: 10px;
+}
+img{
+    margin: 10px 0;
+}
+span{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    color: #ffffff90;
+    font-size: 10px;
+}
+p{
+    font-size: 14px;
+    transform : rotate(0.04deg); 
+}
+
+
+@keyframes fadeIn{
+    from{ opacity: 0;}
+    to{opacity: 1;}
+}
+@keyframes fadeOut{
+    from{ opacity: 1;}
+    to{opacity: 0;}
+}
+@-webkit-keyframes fadeIn{
+    from{ opacity: 0;}
+    to{opacity: 1;}
+}
+@-webkit-keyframes fadeOut{
+    from{ opacity: 1;}
+    to{opacity: 0;}
+}
+.fadeIn{
+    animation:  fadeIn;
+    animation-duration: 0.5s;
+}
+.fadeOut{
+    animation:  fadeOut;
+    animation-duration: 0.5s;
+}

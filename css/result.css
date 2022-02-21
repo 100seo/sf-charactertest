@@ -1,0 +1,51 @@
+#result {
+    display: none;
+    background-color: #ffffff95;
+    box-shadow: 5px 5px 10px #3676B670;
+    width: 80%;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 10px;
+}
+/* @font-face {
+    font-family:  "YUniverse-B";
+    src: url("../font/YUniverse-B.ttf");
+} */
+.resultname {
+    font-size: 15px;
+    font-family:  "YUniverse-B";
+    transform : rotate(0.04deg); 
+}
+
+.resultDesc {
+    font-size: 13px;
+    transform : rotate(0.04deg); 
+}
+.good{
+    color: #7198b1;
+}
+.good p{
+    font-size: 10px;
+}
+.copy {
+    font-family:  "YUniverse-B";
+    color: #3A7CD5;
+    background-color: #ffffff90;
+    border-radius: 20px;
+    border: 0;
+}
+.buy {
+    font-family:  "YUniverse-B";
+    color: #EC6574;
+    background-color: #ffffff90;
+    border-radius: 20px;
+    border: 0;
+}
+
+.copy:hover,
+.copy:focus,
+.buy:hover,
+.buy:focus
+{
+    box-shadow: 0 0 10px #fff;
+}
