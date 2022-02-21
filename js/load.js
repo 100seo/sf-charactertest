@@ -1,4 +1,4 @@
-const loader = $('.loader');
+const loader = $('.loading');
 const html = $('html');
 
 html.css({'overflow' : 'hidden'}); //로딩 중 스크롤 방지
