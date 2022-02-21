@@ -1,0 +1,7 @@
+/*폰트어썸 5.10.2 CDN*/
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css');
+
+/*SUIT 웹폰트 CDN*/
+@import url('http://cdn.jsdelivr.net/gh/sunn-us/SUIT/fonts/static/woff2/SUIT.css');
+
+* {font-family:"SUIT", sans-serif;}
