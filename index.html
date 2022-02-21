@@ -30,6 +30,11 @@
 </head>
 
 <body>
+    <div class="loading">
+        <img src="images/loading.gif" alt="loading...">
+        <h5>해당 테스트는 애독자가 만든 페이지이며,<br>금전적 이익을 위한 수단으로 사용되지 않습니다.</h5>
+        <h4>빆<br>지구끝의 온실<br>드라마화를 축하합니다!</h4>
+    </div>
     <div class="container">
         <section id="main" class="mx-auto my-4 py-4 px-3">
             <h4>웊</h4>
@@ -93,6 +98,11 @@
     <script src="js/data.js"></script>
     <script src="js/start.js"></script>
     <script src="js/share.js"></script>
+    <script>
+        $(window).load(function(){
+            $(".loading").fadeOut();
+        });
+    </script>
 </body>
 
 </html>

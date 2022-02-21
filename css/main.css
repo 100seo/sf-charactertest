@@ -13,7 +13,42 @@
     font-family:  "YUniverse-B";
     src: url("../font/YUniverse-B.ttf");
 }
-
+.loading{
+    width:100%;
+    height:100%;
+    position:fixed;
+    left:0;
+    top:0;
+    background:#ffffff;
+    color: #3676B670;
+    z-index: 100;
+}
+.loading img{
+    position: fixed;
+    left: 50%;
+    top: 35%;
+    width: 200px;
+    transform: translate(-50%,-50%);
+}
+.loading h5{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-style: italic;
+    text-align: center;
+    color: #999999;
+}
+.loading h4{
+    position: fixed;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%,-50%);
+    font-style: italic;
+    text-align: center;
+    color: #3676b6;
+    font-size: 18px;
+}
 body{
     height: 100vh;
     background: linear-gradient(to bottom, #3676B6, #F5B7BA);
