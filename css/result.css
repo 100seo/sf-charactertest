@@ -6,32 +6,29 @@
     text-align: center;
     border-radius: 10px;
 }
-#result h5{
-    font-size: 1em;
-}
 .resultname {
     font-family:  "YUniverse-B";
     transform : rotate(0.04deg); 
 }
 .resultDesc {
-    font-size: 0.8em;
+    font-size: 1em;
     transform : rotate(0.04deg); 
 }
 .good{
     color: #3676b6;
 }
 .good p{
-    font-size: 0.5em;
+    font-size: 0.8em;
 }
 .copy {
-    font-size: 0.7em;
+    font-size: 0.8em;
     color: #3A7CD5;
     background-color: #ffffff90;
     border-radius: 20px;
     border: 0;
 }
 .buy {
-    font-size: 0.7em;
+    font-size: 0.8em;
     color: #EC6574;
     background-color: #ffffff90;
     border-radius: 20px;
