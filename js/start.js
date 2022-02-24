@@ -83,8 +83,8 @@ function goResult() {
     qna.style.WebkitAnimation = "fadeOut 1s"
     qna.style.animation = "fadeOut 1s"
     setTimeout(() => {
-        result.style.WebkitAnimation = "fadeIn 1s"
-        result.style.animation = "fadeIn 1s"
+        result.style.WebkitAnimation = "fadeIn 2s"
+        result.style.animation = "fadeIn 2s"
         setTimeout(() => {
             qna.style.display = "none"
             result.style.display = "block"

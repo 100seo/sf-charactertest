@@ -4,44 +4,39 @@
     box-shadow: 5px 5px 10px #3676B670;
     width: 80%;
     text-align: center;
-    font-size: 12px;
     border-radius: 10px;
 }
-/* @font-face {
-    font-family:  "YUniverse-B";
-    src: url("../font/YUniverse-B.ttf");
-} */
+#result h5{
+    font-size: 1em;
+}
 .resultname {
-    font-size: 14px;
     font-family:  "YUniverse-B";
     transform : rotate(0.04deg); 
 }
-
 .resultDesc {
-    font-size: 12px;
+    font-size: 0.8em;
     transform : rotate(0.04deg); 
 }
 .good{
     color: #3676b6;
 }
 .good p{
-    font-size: 10px;
+    font-size: 0.5em;
 }
 .copy {
-    font-family:  "YUniverse-B";
+    font-size: 0.7em;
     color: #3A7CD5;
     background-color: #ffffff90;
     border-radius: 20px;
     border: 0;
 }
 .buy {
-    font-family:  "YUniverse-B";
+    font-size: 0.7em;
     color: #EC6574;
     background-color: #ffffff90;
     border-radius: 20px;
     border: 0;
 }
-
 .copy:hover,
 .copy:focus,
 .buy:hover,

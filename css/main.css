@@ -8,6 +8,7 @@
 *{
     /* font-family:"SUIT", sans-serif; */
     font-family:  "YUniverse-B";
+    font-size: 14px;
 } 
 
 @font-face {
@@ -38,7 +39,7 @@
     font-style: italic;
     text-align: center;
     color: #999999;
-    font-size: 10px;
+    font-size: 0.7em;
 }
 .loading h4{
     position: fixed;
@@ -48,18 +49,18 @@
     /* font-style: italic; */
     text-align: center;
     color: #3676b6;
-    font-size: 12px;
+    font-size: 0.7em;
+
 }
 body{
     height: 100vh;
     background: linear-gradient(to bottom, #3676B6, #F5B7BA);
     color: #444;
 }
-
 h5{
     font-family:  "YUniverse-B";
-    font-size: 16px;
     transform : rotate(0.04deg); 
+    font-size: 1em;
 }
 h4{
     color: #3676b6;
@@ -83,11 +84,11 @@ span{
     bottom: 0;
     left: 0;
     color: #ffffff90;
-    font-size: 10px;
+    font-size: 0.5em;
 }
 p{
     font-family:  "YUniverse-B";
-    font-size: 12px;
+    font-size: 0.8em;
     transform : rotate(0.04deg); 
     font-style: italic;
 }
