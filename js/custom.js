@@ -2,7 +2,7 @@ $('document').ready(function(){
 
   
     setTimeout(() => {
-      $('.load').fadeOut(200)
+      $('.loading').fadeOut(200)
     }, 5000);
 
 },)

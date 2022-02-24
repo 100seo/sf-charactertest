@@ -12,17 +12,17 @@
     src: url("../font/YUniverse-B.ttf");
 } */
 .resultname {
-    font-size: 15px;
+    font-size: 14px;
     font-family:  "YUniverse-B";
     transform : rotate(0.04deg); 
 }
 
 .resultDesc {
-    font-size: 13px;
+    font-size: 12px;
     transform : rotate(0.04deg); 
 }
 .good{
-    color: #7198b1;
+    color: #3676b6;
 }
 .good p{
     font-size: 10px;

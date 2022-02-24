@@ -6,7 +6,8 @@
 
 /*  */
 *{
-    font-family:"SUIT", sans-serif;
+    /* font-family:"SUIT", sans-serif; */
+    font-family:  "YUniverse-B";
 } 
 
 @font-face {
@@ -25,8 +26,8 @@
 .loading img{
     position: fixed;
     left: 50%;
-    top: 35%;
-    width: 200px;
+    top: 40%;
+    width: 100px;
     transform: translate(-50%,-50%);
 }
 .loading h5{
@@ -37,16 +38,17 @@
     font-style: italic;
     text-align: center;
     color: #999999;
+    font-size: 10px;
 }
 .loading h4{
     position: fixed;
     left: 50%;
-    top: 60%;
+    top: 10%;
     transform: translate(-50%,-50%);
-    font-style: italic;
+    /* font-style: italic; */
     text-align: center;
     color: #3676b6;
-    font-size: 18px;
+    font-size: 12px;
 }
 body{
     height: 100vh;
@@ -56,11 +58,11 @@ body{
 
 h5{
     font-family:  "YUniverse-B";
-    font-size: 19px;
+    font-size: 16px;
     transform : rotate(0.04deg); 
 }
 h4{
-    color: #7198b1;
+    color: #3676b6;
     font-family:  "YUniverse-B";
     font-size: 30px;
     margin-bottom: 15px;
@@ -84,8 +86,10 @@ span{
     font-size: 10px;
 }
 p{
-    font-size: 14px;
+    font-family:  "YUniverse-B";
+    font-size: 12px;
     transform : rotate(0.04deg); 
+    font-style: italic;
 }
 @keyframes fadeIn{
     from{ opacity: 0;}
